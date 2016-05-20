@@ -51,6 +51,9 @@ return [
         'array'   => ':attribute 不能包含超過 :max 個',
     ],
     'mimes'                => ':attribute 必須是一個 :values 檔案',
+    'min'                  => [
+        'numeric' => ':attribute 不能小於 :min',
+        'file'    => ':attribute 的大小不能小於 :min kb',
         'string'  => ':attribute 必須至少 :min 個字元',
         'array'   => ':attribute 必須至少有 :min 個',
     ],
