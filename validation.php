@@ -43,7 +43,7 @@ return [
     'in_array'             => ':attribute 不存在於 :other',
     'integer'              => ':attribute 必須是整數',
     'ip'                   => ':attribute 必須是有效的 IP 位址',
-    'json'                 => ':attribute 必頁是有效的 JSON 字串',
+    'json'                 => ':attribute 必須是有效的 JSON 字串',
     'max'                  => [
         'numeric' => ':attribute 不能大於 :max',
         'file'    => ':attribute 的大小不能超過 :max kb',
